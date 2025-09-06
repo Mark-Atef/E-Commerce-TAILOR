@@ -611,7 +611,7 @@ nav {
   }
 
   .order {
-    min-height: 30vh;
+    min-height: 40vh;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -624,7 +624,7 @@ nav {
   .order-content .btn-primary {
     font-size: 14px;
     padding: 10px 16px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   /* end featured-products */
@@ -756,7 +756,7 @@ nav {
     font-size: 18px;
   }
 
-  
+
   /* Hero */
   .hero {
     min-height: 80vh;
@@ -872,6 +872,7 @@ nav {
 }
 
 @media all and (min-width:575px) and (max-width:750px) {
+
   /* Fix header layout */
   nav {
     flex-wrap: wrap;
@@ -903,9 +904,9 @@ nav {
     min-height: 80vh;
     background-position: center;
     background-size: cover;
-    display: flex;              /* Center content */
-    align-items: center;        /* Vertical center */
-    justify-content: center;    /* Horizontal center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-content {
@@ -936,12 +937,13 @@ nav {
     top: 5px;
   }
 }
+
 @media all and (min-width:881px) and (max-width:1120px) {
 
   .hero-content {
-  top: 230px;
-  left: 450px;
-  line-height: 1.6;
-}
+    top: 230px;
+    left: 450px;
+    line-height: 1.6;
+  }
 
 }
